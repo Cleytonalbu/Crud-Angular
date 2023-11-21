@@ -28,7 +28,9 @@ import { ProductReadComponent } from './components/product/product-read/product-
 
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort' 
+import { MatSortModule } from '@angular/material/sort';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component' 
  
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { MatSortModule } from '@angular/material/sort'
     ProductCrudComponent,
     ProductCreateComponent,
     ProductReadComponent,
+    ProductUpdateComponent,
+    ProductDeleteComponent,
   
   ],
   imports: [
